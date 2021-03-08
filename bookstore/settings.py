@@ -63,6 +63,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'bookapp.context_processors.navLinks',
+                'bookapp.context_processors.book_search_form',
             ],
         },
     },
